@@ -1,0 +1,14 @@
+{
+  "name": "cyber-edu-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/styles/tailwind.input.css -o ./src/main/webapp/static/css/tailwind.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/styles/tailwind.input.css -o ./src/main/webapp/static/css/tailwind.css --watch"
+  }
+}
